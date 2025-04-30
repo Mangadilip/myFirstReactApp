@@ -23,7 +23,7 @@ function App() {
       {/* <FirstComp name="Dilip"/> */}
       {/* <SecondCopm name="raju"/> */}
       {/* <ThirdComp name={user.location}/> */}
-      <FouthComp car={myCar}/>
+      {/* <FouthComp car={myCar}/> */}
       <StateMgm/>
     </div>
   )
