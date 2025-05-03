@@ -1,0 +1,96 @@
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: #ffffff; /* Clean white background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Neutral text color */
+  text-align: left;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: #070706;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #555;
+}
+
+input {
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus {
+  border-color: #007bff; /* Professional blue focus */
+  background: #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: #007bff; /* Professional blue button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+button:active {
+  transform: scale(0.98); /* Slight scale effect on click */
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e6f7e6; /* Light green background for success */
+  border: 1px solid #b2d8b2;
+  border-radius: 5px;
+  color: #2d7a2d;
+  font-size: 14px;
+}
+
+.submitted-data {
+  color: #007bff; /* Professional blue color */
+  font-weight: bold;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}

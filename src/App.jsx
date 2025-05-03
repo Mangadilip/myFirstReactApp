@@ -4,6 +4,10 @@ import SecondCopm from './propContainer/SecondCopm'
 import ThirdComp from './propContainer/ThirdComp'
 import FouthComp from './propContainer/FouthComp'
 import StateMgm from './StateMgm'
+import FormExample from './FormExample'
+import SampleArray from './SampleArray'
+
+
 
 const user={
   name: "Dilip",
@@ -24,7 +28,10 @@ function App() {
       {/* <SecondCopm name="raju"/> */}
       {/* <ThirdComp name={user.location}/> */}
       {/* <FouthComp car={myCar}/> */}
-      <StateMgm/>
+      {/* <StateMgm/> */}
+      {/* <FormExample/> */}
+      <SampleArray/>
+
     </div>
   )
 }
